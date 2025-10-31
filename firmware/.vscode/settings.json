@@ -1,11 +1,18 @@
 {
-    "python.languageServer": "Pylance",
+    "python.languageServer": "None",
     "python.analysis.diagnosticSeverityOverrides": {
         "reportMissingModuleSource": "none",
         "reportShadowedImports": "none"
     },
     "python.REPL.enableREPLSmartSend": false,
     "python.analysis.extraPaths": [
+        "./badge/net"
+    ],
+    "cursorpyright.analysis.diagnosticSeverityOverrides": {
+        "reportMissingModuleSource": "none",
+        "reportShadowedImports": "none"
+    },
+    "cursorpyright.analysis.extraPaths": [
         "./badge/net"
     ]
 }
